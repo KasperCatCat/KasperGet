@@ -106,13 +106,13 @@ KasperGet — это легковесная и современная утили
 
 2. Откройте файл конфигурации (или исходный скрипт) и впишите туда IP-адрес вашего телефона:
 
-   ```python
+   
 
    self.PHONE_IP = "192.168.x.x"  # Укажите IP вашего смартфона
 
 
 
-```
+
 
 
 
@@ -134,13 +134,13 @@ KasperGet — это легковесная и современная утили
 
 1. Установите упаковщик через PowerShell:
 
-```powershell
+
 
 python -m pip install pyinstaller customtkinter requests
 
 
 
-```
+
 
 
 
@@ -150,13 +150,13 @@ python -m pip install pyinstaller customtkinter requests
 
 **Вариант А:**
 
-```powershell
+
 
 pyinstaller --noconsole --onefile --collect-all customtkinter main.py
 
 
 
-```
+
 
 
 
@@ -164,13 +164,12 @@ pyinstaller --noconsole --onefile --collect-all customtkinter main.py
 
 **Вариант Б (Если команда не распознается глобально):**
 
-```powershell
 
 & "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Scripts\pyinstaller.exe" --noconsole --onefile --collect-all customtkinter main.py
 
 
 
-```
+
 
 
 
