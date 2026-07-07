@@ -198,6 +198,7 @@ pyinstaller --noconsole --onefile --collect-all customtkinter main.py
 
 
 **Автор проекта:** Kasper
+Если возникли проблемы, пишите в телеграмм: https://t.me/kaspercat1
 
 
 
