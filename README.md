@@ -152,7 +152,7 @@ python -m pip install pyinstaller customtkinter requests
 
 
 
-pyinstaller --noconsole --onefile --collect-all customtkinter main.py
+pyinstaller --noconsole --onefile --collect-all customtkinter KasperGet.pyw
 
 
 
@@ -165,7 +165,7 @@ pyinstaller --noconsole --onefile --collect-all customtkinter main.py
 **Вариант Б (Если команда не распознается глобально):**
 
 
-& "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Scripts\pyinstaller.exe" --noconsole --onefile --collect-all customtkinter main.py
+& "C:\Users\admin\AppData\Local\Python\pythoncore-3.14-64\Scripts\pyinstaller.exe" --noconsole --onefile --collect-all customtkinter KasperGet.pyw
 
 
 
